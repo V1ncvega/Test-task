@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="max-w-xl w-full bg-white p-8 rounded shadow">
+      <div class="inputs mb-4">
+        <label for="searchField" class="block text-gray-700 font-semibold mb-2">Поиск</label>
+        <input type="text" id="searchField" class="w-full rounded-md px-3 py-2 border focus:ring focus:ring-blue-300">
+        <button id="postsSort" class="mt-2 inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:ring focus:ring-blue-300">id записи ⇅</button>
+        <button id="usersSort" class="mt-2 inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:ring focus:ring-blue-300">id пользователя ⇅</button>
+        <button id="resetSort" class="mt-2 inline-block px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 focus:ring focus:ring-gray-300">Сбросить сортировки</button>
+      </div>
+      <div class="posts"></div>
+    </div>
+  </body>
+</html>
