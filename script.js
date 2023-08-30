@@ -2,8 +2,8 @@ $(document).ready(function() {
   var tittleosts = [];
   var searchArr = []
   var blockSearch = true;
-  var userSortActive = false;
-  var tittleostSortActive = false;
+  // var userSortActive = false;
+  // var postSortActive = false;
 
 
 
